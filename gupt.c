@@ -26,6 +26,8 @@ char *vs(char *s)
 
 void additive()
 {
+    printf("ADDITIVE CIPHER\n");
+    printf("==============================================================================================\n");
     int vk()
     {
         int key;
@@ -107,6 +109,8 @@ void additive()
     while (1)
     {
         int n;
+        
+        
         printf("1. for encryption\n");
         printf("2. for decryption\n");
         printf("3. for key\n");
@@ -114,7 +118,6 @@ void additive()
         printf("choose your option\n");
         scanf("%i", &n);
         printf("==============================================================================================\n");
-
         switch (n)
         {
         case 1:
@@ -159,6 +162,8 @@ void additive()
 }
 void multiplicative()
 {
+    printf("MULTIPLICATIVE CIPHER\n");
+    printf("==============================================================================================\n");
     int vk()
     {
         int key;
@@ -303,6 +308,15 @@ void multiplicative()
 }
 int main()
 {
+    printf("==============================================================================================\n\n");
+    printf("*********   *       *   *********   *********\n");
+    printf("*           *       *   *       *       *    \n");
+    printf("*           *       *   *       *       *    \n");
+    printf("*    ****   *       *   *********       *    \n");
+    printf("*       *   *       *   *               *    \n");
+    printf("*       *   *       *   *               *    \n");
+    printf("*********   *********   *               *    \n\n");
+
     printf("==============================================================================================\n");
     printf("this is the tool for encryption, decryption and for finding keys\n");
     printf("==============================================================================================\n");
