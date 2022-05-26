@@ -12,7 +12,13 @@ cd gupt
 ```
 gcc gupt.c -o gupt
 ```
+for cmd 
+```
+gupt.exe
+```
+for powershell
 ```
 ./gupt
 ```
+
 ![logo](https://github.com/mishrakansha/gupt/blob/main/logo/2022-05-26%20(3).png)
